@@ -2,7 +2,7 @@
 This emotion recognition system recognizes three emotions—`happy`, `sad` and `surprise`— from the facial expressions. After experimenting with different machine learning algorithms to train the model, the highest accuracy was achieved with `Logistic Regression` at **77.70**. The best-performing model is then used in this emotion recognition system.  
 Facial landmarks (features) are extracted from image dataset using the `MediaPipe library` and saved as a numpy array to `data.txt`. The models are then trained on the data stored in `data.txt`.
 
-## Dataset  
+## 🗂️Dataset  
 * The data consists of 48x48 pixel grayscale images of faces.
 * The images are categorized into three classes: `happy`, `sad` and `surprise`.
 * Each class have 500 images, it is taken randomly from [FER2013 dataset](https://www.kaggle.com/datasets/msambare/fer2013).
@@ -11,7 +11,7 @@ Facial landmarks (features) are extracted from image dataset using the `MediaPip
 <div style="display: flex; justify-content: space-between;">
   <div style="flex: 1;">
   
-  ### Models Accuracy Table
+  ### Models Accuracy Table 📊
 
   | Model                          | Accuracy (%) |
   |---------------------------------|--------------|
@@ -26,7 +26,7 @@ Facial landmarks (features) are extracted from image dataset using the `MediaPip
   </div>
   <div style="flex: 1; text-align: center;">
   
-  ### Model Accuracy Comparison
+  ### Model Accuracy Comparison 📈
   
   ![Image](./images/models_accuracy_comparison.png)
 
