@@ -1,2 +1,8 @@
+__pycache__/
 data/
 data.txt
+model
+notes.md
+images/happy.png
+images/sad.png
+images/surprise.png
